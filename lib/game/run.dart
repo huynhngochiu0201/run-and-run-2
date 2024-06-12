@@ -22,6 +22,7 @@ class Run extends FlameGame with TapDetector, HasCollisionDetection {
 
   // List of all the image assets.
   static const _imageAssets = [
+    'ATTACK1.png',
     'DinoSprites - tard.png',
     'DinoSprites - mort.png',
     'AngryPig/Walk (36x30).png',

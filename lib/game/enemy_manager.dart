@@ -59,7 +59,7 @@ class EnemyManager extends Component with HasGameReference<Run> {
       // As soon as this component is mounted, initilize all the data.
       _data.addAll([
         EnemyData(
-          image: game.images.fromCache('AngryPig/Walk (36x30).png'),
+          image: game.images.fromCache('AngryPig/Walk (36x30).png'), //
           nFrames: 16,
           stepTime: 0.1,
           textureSize: Vector2(36, 30),
